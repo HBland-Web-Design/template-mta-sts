@@ -1,0 +1,5 @@
+---
+deployment:
+ tasks:
+ - export DEPLOYPATH=/home/myCPANELuser/mta-sts/ #Change myCPANELuser to your cPanel User Account
+ - /bin/cp -R .well-known $DEPLOYPATH
